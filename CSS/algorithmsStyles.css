@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2e2e2e;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.container {
+    background-color: #fff;
+    padding: 40px;
+    padding-top: 60px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    width: 400px;
+    position: relative;
+}
+
+/* Back button — top left corner only */
+#backButton {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    padding: 6px 16px;
+    border: 1.5px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #555;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: border-color 0.15s, color 0.15s;
+}
+
+#backButton:hover {
+    border-color: #888;
+    color: #222;
+}
+
+/* Decrypt button — normal flow (not absolute) */
+#decryptButton {
+    padding: 8px 24px;
+    border: 1.5px solid #ec2b2b;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #ec2b2b;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.15s, color 0.15s;
+    width: auto;
+    align-self: center;
+    margin-top: 8px;
+}
+
+#decryptButton:hover {
+    background-color: #ec2b2b;
+    color: #fff;
+}
+
+#encryptButton {
+    padding: 8px 24px;
+    border: 1.5px solid #2b8fec;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #2b8fec;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.15s, color 0.15s;
+    width: auto;
+    align-self: center;
+    margin-top: 8px;
+}
+
+#encryptButton:hover {
+    background-color: #2b8fec;
+    color: #fff;
+}
+
+input[type="text"] ,input[type="number"] {
+    width: 100%;
+    padding: 10px 14px;
+    border: 1.5px solid #ddd;
+    border-radius: 8px;
+    background-color: #fafafa;
+    color: #333;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.15s;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+    border-color: #888;
+}
+
+input[type="text"]::placeholder,
+input[type="number"]::placeholder {
+    color: #888;
+}
+
+#result {
+    font-size: 15px;
+    color: #444;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+    font-weight: 600;
+    min-height: 40px;
+    word-break: break-word;
+    padding: 10px 14px;
+}
+p{
+    border: 1px solid #ddd;
+    width: 100%;
+    height: auto;
+}
+p[value]{
+    color: #ad0000;
+}
