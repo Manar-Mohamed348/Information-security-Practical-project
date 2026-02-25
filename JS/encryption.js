@@ -10,4 +10,16 @@ nextButton.addEventListener("click", () => {
     if (selectedAlgorithm === "Ceaser") {
         window.location.href = "../HTML/ceaserEncryptionPage.html";
     }
+    else if (selectedAlgorithm === "Monoalphabetic-Direct") {
+        window.location.href = "../HTML/monoalphabeticDirectPage.html";
+    }
+    else if (selectedAlgorithm === "Monoalphabetic-KeyWord") {
+        window.location.href = "../HTML/monoalphabeticKeywordPage.html";
+    }
+    else if (selectedAlgorithm === "Monoalphabetic-Columnar") {
+        window.location.href = "../HTML/monoalphabeticColumnarPage.html";
+    }
+    else if (selectedAlgorithm === "Monoalphabetic-Random") {
+        window.location.href = "../HTML/monoalphabeticRandomPage.html";
+    }
 });

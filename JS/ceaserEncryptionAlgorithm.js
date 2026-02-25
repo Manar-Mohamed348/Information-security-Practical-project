@@ -5,7 +5,7 @@ const shiftKey = document.getElementById("shiftKey");
 const result = document.getElementById("result");
 
 backButton.addEventListener("click", () => {
-    window.location.href = "../HTML/main.html";
+    window.location.href = "../HTML/encryptionPage.html";
 });
 
 const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
