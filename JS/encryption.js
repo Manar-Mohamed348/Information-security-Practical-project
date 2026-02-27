@@ -11,15 +11,15 @@ nextButton.addEventListener("click", () => {
         window.location.href = "../HTML/ceaserEncryptionPage.html";
     }
     else if (selectedAlgorithm === "Monoalphabetic-Direct") {
-        window.location.href = "../HTML/monoalphabeticDirectPage.html";
+        window.location.href = "../HTML/monoalphabeticDirectPageEnc.html";
     }
     else if (selectedAlgorithm === "Monoalphabetic-KeyWord") {
-        window.location.href = "../HTML/monoalphabeticKeywordPage.html";
+        window.location.href = "../HTML/monoalphabeticKeywordPageEnc.html";
     }
     else if (selectedAlgorithm === "Monoalphabetic-Columnar") {
-        window.location.href = "../HTML/monoalphabeticColumnarPage.html";
+        window.location.href = "../HTML/monoalphabeticColumnarPageEnc.html";
     }
     else if (selectedAlgorithm === "Monoalphabetic-Random") {
-        window.location.href = "../HTML/monoalphabeticRandomPage.html";
+        window.location.href = "../HTML/monoalphabeticRandomPageEnc.html";
     }
 });
